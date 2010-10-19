@@ -2,7 +2,7 @@
 
 App::import('Core', 'Sanitize');
 
-class SearchController extends SearchAppController {
+class SearchController extends LuceneSearchAppController {
   var $uses = array('Node');
   var $components = array('Lucene');
   

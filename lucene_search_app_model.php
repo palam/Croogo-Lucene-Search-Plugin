@@ -1,5 +1,5 @@
 <?php
-class SearchAppModel extends AppModel {
+class LuceneSearchAppModel extends AppModel {
 
 }
 ?>

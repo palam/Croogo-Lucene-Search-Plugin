@@ -3,7 +3,7 @@
 	if(!empty($nodes)){
 		echo '<ul>';
 		foreach($nodes as $node){
-			echo '<li>'.$html->link($node['Node']['title'], array('controller' => 'nodes', 'type' => 'page', 'action' => 'view', 'slug' => $node['Node']['slug'], 'plugin' => false)).'</li>';
+			echo '<li>'.$html->link($node['Node']['title'], array('controller' => 'nodes', 'type' => $node['Node']['type'], 'action' => 'view', 'slug' => $node['Node']['slug'], 'plugin' => false)).'</li>';
 		}
 		echo '</ul>';
 	}

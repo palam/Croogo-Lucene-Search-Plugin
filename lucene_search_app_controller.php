@@ -1,5 +1,5 @@
 <?php
-class SearchAppController extends AppController {
+class LuceneSearchAppController extends AppController {
 	function beforeFilter(){
 		parent::beforeFilter();
 	}
