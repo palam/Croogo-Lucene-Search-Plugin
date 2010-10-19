@@ -1,7 +1,6 @@
 #Croogo Lucene Search Plugin
 
 Search plugin for Croogo CMS using Zend_Search_Lucene
-
 ---
 
 ##Installation and Activation
@@ -9,7 +8,6 @@ Search plugin for Croogo CMS using Zend_Search_Lucene
  - Rename the downloaded folder to 'lucene_search' and place it in your Croogo installation's app/plugins folder.
  - Goto Extensions->Plugins in the admin section.
  - Click 'Activate' next to the "Lucene Search" entry.
-
 ---
 
 ##Usage
@@ -17,13 +15,11 @@ Search plugin for Croogo CMS using Zend_Search_Lucene
 Visit your-app.com/lsearch/your_query (or) submit a form containing your_query in data[Search][query] to plugin:lucene_search/controller:search/action:query
 
 *If it isn't obvious enough, this is just a basic example written without any thought going into it. Modify it to suit your app. You will probably want to remove Croogo's default /search/\* route and use that instead.*
-
 ---
 
 ##Bugs, Suggestions and Questions
 
 Please send me an email: palaniappanc at gmail.
-
 ---
 
 ##License
