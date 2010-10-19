@@ -1,0 +1,11 @@
+name: Lucene Search
+description: Search nodes using Zend_Search_Lucene
+
+author: Palaniappan Chellappan
+authorEmail: palaniappanc@cloudmint.com
+authorUrl: http://www.cloudmint.com
+
+dependencies:
+  plugins:
+    - acl
+    - extensions
